@@ -71,7 +71,7 @@ shared_ptr_toy make_shared_toy() {
     return shared_ptr_toy();
 }
 
-shared_ptr_toy make_shared_toy(shared_ptr_toy& toyPtr) {
+shared_ptr_toy make_shared_toy(shared_ptr_toy &toyPtr) {
     return shared_ptr_toy(toyPtr);
 }
 
